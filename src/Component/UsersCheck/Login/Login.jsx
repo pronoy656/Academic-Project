@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Login = () => {
   return (
     <div>
-      <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl mt-11">
+      <div className="flex w-full max-w-sm mx-auto overflow-hidden rounded-lg shadow-2xl shadow-green-300 dark:bg-gray-800 lg:max-w-4xl mt-24">
         <div
           className="hidden bg-cover lg:block lg:w-1/2"
           style={{
