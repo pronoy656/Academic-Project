@@ -9,6 +9,8 @@ import Shop from "./Component/Pages/Shop/Shop.jsx";
 import Blog from "./Component/Pages/Blog/Blog.jsx";
 import About from "./Component/Pages/About/About.jsx";
 import Contact from "./Component/Pages/Contact/Contact.jsx";
+import Register from "./Component/UsersCheck/Register/Register.jsx";
+import Login from "./Component/UsersCheck/Login/Login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
       },
     ],
   },
