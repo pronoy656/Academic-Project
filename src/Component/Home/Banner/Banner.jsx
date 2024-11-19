@@ -26,11 +26,21 @@ const Banner = () => {
       >
         <SwiperSlide>
           <div className="h-[600px] w-full border border-red-500">
-            <h1>The Best</h1>
-            <h1>Indoor Plant </h1>
-            <h1>For You</h1>
-            <div className="border-2 border-red-400 mt-2"></div>
-            <h1>Create Anything By Your Style</h1>
+            <div className="flex justify-between">
+              <div>
+                <h1>The Best</h1>
+                <h1>Indoor Plant </h1>
+                <h1>For You</h1>
+                <div className="border-2 border-red-400 mt-2"></div>
+                <h1>Create Anything By Your Style</h1>
+              </div>
+              <div className="mt-10">
+                <img
+                  src="https://storage.pixteller.com/designs/designs-images/2018-07-27/10/logo-design-branding-logo-circular-rounded-1-5b5b785331d4c.png"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
