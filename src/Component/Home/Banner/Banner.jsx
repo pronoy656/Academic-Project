@@ -24,12 +24,14 @@ const Banner = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className="h-16 border">
-          <img
-            className="h-[600px] w-full"
-            src="https://i.ibb.co.com/Dttschg/DALL-E-2024-11-16-22-09-30-A-minimalist-and-aesthetic-banner-featuring-two-potted-plants-similar-to.webp"
-            alt=""
-          />
+        <SwiperSlide>
+          <div className="h-[600px] w-full border border-red-500">
+            <h1>The Best</h1>
+            <h1>Indoor Plant </h1>
+            <h1>For You</h1>
+            <div className="border-2 border-red-400 mt-2"></div>
+            <h1>Create Anything By Your Style</h1>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img
